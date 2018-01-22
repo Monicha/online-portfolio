@@ -1,0 +1,213 @@
+/*Ipad size*/
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+    /*General font for website.*/
+    body{
+      font-family: cursive;
+    }
+
+    /*Div of main image*/
+    .container {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    /*Navbar containing jumplinks.*/
+    nav{
+      top: 0;
+      width: 100%;
+      height: 70px;
+      position: fixed;
+    }
+
+    nav ul{
+      list-style-type: none;
+    }
+
+    nav a{
+      position: relative;
+      top: 0px;
+      text-decoration: none;
+      font-size: 25px;
+      font-family: serif;
+      color: white;
+    }
+
+    nav li{
+      top: 0px;
+      float: left;
+      margin-left: 20px;
+      left: 0px;
+    }
+
+    /*Setting a width for the main image (laptop).*/
+    .main_image{
+      padding-top: 60px;
+      width: 760px;
+      height: 580px;
+    }
+
+    /*Text on image when hovering over it.*/
+    .image_text {
+      position: absolute;
+      margin-top: -80px;
+      margin-left: -15px;
+      opacity: 0;
+      transition: .5s ease;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+
+    /*Changing the color of my name, from default (black)
+    to white.*/
+    #my_name{
+      color: white;
+      font-size: 35px;
+      margin-left: 65px;
+      margin-top: -170px;
+    }
+
+    /*Paragraph appearing on main image.*/
+    #paragraph_intro{
+      margin-left: 60px;
+      font-size: 24px;
+      letter-spacing: 1px;
+      color: white;
+      font-family: sans-serif;
+    }
+
+    /*Div of main image, hovering to create effect.*/
+    .container:hover .image {
+      opacity: 0.8;
+    }
+
+    /*Div of text on main image.*/
+    .container:hover .image_text {
+      opacity: 1;
+    }
+
+    /*Image of Monicha appearing on main image(laptop).*/
+    #image_monicha{
+      margin-left: 60px;
+      border-radius: 70%;
+      height: 180px;
+    }
+
+    /*The div containing the about information*/
+    #about{
+      width: 759px;
+      font-size: 23px;
+    }
+
+    /*Headings beneath main image, centered. */
+    #about_heading{
+      text-align: center;
+      margin-left: 0px;
+      margin-top: -10px;
+      background-color: black;
+      color: white;
+    }
+
+    #statement_paragraph{
+      width: 80%;
+      font-size: 30px;
+      margin-left: 50px;
+      font-family: 'Heritica';
+    }
+
+    /*Centering about title.*/
+    #about_title {
+      text-align: center;
+    }
+
+    /*Centering heading of education including more styles.*/
+    #education_heading{
+      font-size: 43px;
+      height: 57px;
+      text-align: center;
+      margin-left: 0px;
+      margin-top: -180px;
+      background-color: black;
+      color: white;
+    }
+
+    /*Education div, moving the section to the bottom to prevent
+    it from clashing with the about section.*/
+    .my_education{
+      width: 85%;
+      font-size: 28px;
+      margin-left: 30px;
+    }
+
+    /*Redirecting the stairs image.*/
+    #stairs_image{
+      margin-left: 250px;
+      margin-top: 10px;
+      width: 35%;
+      height: 200px;
+    }
+
+    #skills_heading{
+      font-size: 43px;
+      height: 60px;
+      text-align: center;
+      margin-left: 0px;
+      background-color: black;
+      color: white;
+    }
+
+    /*Moving the skill image.*/
+    #skills_image{
+      margin-left: 190px;
+      width: 45%;
+    }
+
+  
+    .listed_skills{
+      font-size: 28px;
+      margin-top: 10px;
+      margin-left: -1px;
+    }
+
+    /*Heading of hire me information.*/
+    #hireMe_heading{
+      font-size: 41px;
+      text-align: center;
+      margin-top: 25px;
+      background: black;
+      color: white;
+      height: 60px;
+    }
+
+    #hire_me{
+      margin-left: 130px;
+      width: 70%;
+      font-size: 30px;
+    }
+
+    /*Hire information*/
+    #hire_section{
+      margin-top: 10px;
+      background-color: black;
+      color: white;
+      height: 300px;
+      text-align: center;
+    }
+
+    /*my email address appearing at the bottom of the page.*/
+    #email{
+      font-size: 28px;
+      color: white;
+      font-family: sans-serif;
+    }
+
+    /*The arrow at the bottom of the page which redirect the user to
+    the top of the page.*/
+    #scroll_To_Top{
+      width: 80px;
+      margin-top: 10px;
+      margin-left: -400px;
+    }

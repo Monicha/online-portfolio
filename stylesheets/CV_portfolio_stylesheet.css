@@ -1,0 +1,248 @@
+/*General font for website.*/
+body{
+  font-family: cursive;
+}
+
+/*Div of main image*/
+.container {
+	text-align: center;
+}
+
+/*Navbar containing jumplinks.*/
+nav{
+  background: linear-gradient(to right, black, grey, black, grey, black);
+  top: 0;
+  width: 100%;
+  height: 55px;
+  position: fixed;
+  scroll-behavior: smooth;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav a{
+  text-decoration: none;
+  font-size: 22px;
+  font-family: serif;
+  color: white;
+}
+
+nav li{
+  margin-top: 0px;
+  margin-left: 125px;
+  float: left;
+}
+
+/*Image of laptop displaying as a main image.*/
+.image {
+  padding-top: 40px;
+  height: 550px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  display: block;
+  position: relative;
+}
+
+/*Setting a width for the main image (laptop).*/
+.main_image{
+  width: 1340px;
+}
+
+/*Text on image when hovering over it.*/
+.image_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/*Div of main image, hovering to create effect.*/
+.container:hover .image {
+  opacity: 0.8;
+}
+
+/*Div of text on main image.*/
+.container:hover .image_text {
+  opacity: 1;
+}
+
+/*Changing the color of my name, from default (black)
+to white.*/
+#my_name{
+  color: white;
+}
+
+/*Text appearing on main image.*/
+.text {
+  color: white;
+  font-size: 30px;
+}
+
+/*Paragraph appearing on main image.*/
+#paragraph_intro{
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: white;
+  font-family: sans-serif;
+}
+
+/*Image of Monicha appearing on main image(laptop).*/
+#image_monicha{
+	text-align: center;
+	border-radius: 70%;
+}
+
+/*Headings beneath main image, centered. */
+#heading{
+  width: 1340px;
+	text-align: center;
+	margin-top: -10px;
+  background-color: black;
+  color: white;
+}
+
+/*Centering about section and adding style to paragraphs..*/
+#about {
+  text-align: center;
+}
+
+#statement_paragraph{
+  margin-left: 155px;
+  font-size: 20px;
+  width: 75%;
+  font-family: 'Heritica';
+}
+
+/*Centering heading of education including more styles.*/
+#education_heading{
+  margin-top: -180px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+
+/*Education div, moving the section to the bottom to prevent
+it from clashing with the about section.*/
+#education{
+  margin-top: 203px;
+}
+
+#skills_heading{
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+
+#arrow_image1{
+   margin-top: 10px;
+   margin-left: 170px;
+}
+
+#beacon-hill_school{
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+#high_school_info{
+    width: 45%;
+}
+
+#life-choices_academy{
+    font-size: 22px;
+    text-decoration: underline;
+    margin-left: 600px;
+    margin-top: -387px;
+}
+
+#arrow_image2{
+    margin-left: 730px;
+}
+
+#life-choices_info{
+    margin-left: 600px;
+    width: 45%;
+}
+
+/*Redirecting the stairs image.*/
+#stairs_image{
+	margin-left: 500px;
+	margin-top: 30px;
+}
+
+/*My education history.*/
+.my_education{
+  margin-left: 170px;
+  width: 70%;
+}
+
+/*Moving the skills heading.*/
+#skills_heading{
+  margin-top: 44px;
+}
+
+/*Moving the skill image.*/
+#skills_image{
+  margin-left: 40%;
+}
+
+/*Moving skills that are listed*/
+#skills_listed{
+  margin-left: 12%;
+}
+
+.listed_skills{
+  margin-left: 58%;
+  margin-top: -90px;
+}
+
+/*Heading of hire me information.*/
+#hire_me{
+  text-align: center;
+  background: black;
+  color: white;
+  height: 300px;
+}
+
+#hire_me h1{
+  margin-left: 30px;
+}
+
+/*GitHub icon*/
+#github_icon{
+  margin-left: -330px;
+  margin-top: 50px;
+}
+
+/*linkedin icon*/
+#linkedin_icon{
+  margin-top: -70px;
+  margin-left: 500px;
+}
+
+/*Email address appearing at the bottom of the page.*/
+#email{
+  margin-top: 30px;
+  margin-left: 40px;
+  color: white;
+  font-family: sans-serif;
+}
+
+#my_email{
+  margin-left: 15px;
+}
+
+/*The arrow at the bottom of the page which redirect the user to
+the top of the page.*/
+.back-to-top{
+  float: right;
+  padding: 2px;
+}
